@@ -9,16 +9,24 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
   1.Prepare your dataClean and format your data Split your data into training and testing sets
+  
   2.Define your model
        Use a sigmoid function to map inputs to outputs Initialize weights and bias terms 
+       
   3.Define your cost function
        Use binary cross-entropy loss function Penalize the model for incorrect predictions 
+       
   4.Define your learning rate
        Determines how quickly weights are updated during gradient descent
+       
   5.Train your model Adjust weights and bias terms using gradient descent Iterate until convergence or for a fixed number of iterations
+  
   6.Evaluate your model Test performance on testing data Use metrics such as accuracy, precision, recall, and F1 score 
+    
   7.Tune hyperparameters Experiment with different learning rates and regularization techniques 
+  
   8.Deploy your model Use trained model to make predictions on new data in a real-world application.
+  
 
 ## Program:
 ```
@@ -56,15 +64,32 @@ dt.predict([[0.5,0.8,9,260,8,0,1,2]])
 ```
 
 ## Output:
+ ### 1. data.head()
 ![decision tree classifier model](1.png)
+
+### 2. data.info()
 ![decision tree classifier model](2.png)
+
+ ### 3. isnull() and sum()
 ![decision tree classifier model](8.png)
 
 ![decision tree classifier model](9.png)
+
+### 4. data value counts()
 ![decision tree classifier model](3.png)
+
+
+### 5. data.head() for salary
 ![decision tree classifier model](4.png)
+
+### 6. x.head()
 ![decision tree classifier model](5.png)
+### 7. accuracy value
+
 ![decision tree classifier model](6.png)
+
+
+### 8. data prediction
 ![decision tree classifier model](7.png)
 
 ## Result:
